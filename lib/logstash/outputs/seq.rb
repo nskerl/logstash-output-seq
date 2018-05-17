@@ -4,7 +4,7 @@ require "logstash/namespace"
 require "logstash/json"
 require "logstash/plugin_mixins/http_client"
 require "uri"
-require 'securerandom'
+require "securerandom"
 
 class LogStash::Outputs::Seq < LogStash::Outputs::Base
   include LogStash::PluginMixins::HttpClient
